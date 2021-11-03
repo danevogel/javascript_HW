@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rebeccapurple;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 120px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rebeccapurple;
+    transition: 0.5s;
+    z-index: 98;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+
+.bar2{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #c654e5;
+    text-align: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/69/The_Shaggs.JPG");
+    margin: 20px 80px;
+    display: flex;
+    align-items: baseline;
+
+}
+.box2{
+    height: 450px;
+    width: 450px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Rob_Barrett_of_Cannibal_Corpse.jpg");
+    background-position: center;
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-around;}
+
+@media screen and (max-width: 800px){
+.bar{
+
+    height: 12px;
+    width: 80%;
+    background-color: sandybrown;
+}
+.bar2{
+    height: 8px;
+    width: 80%;
+    background-color: saddlebrown;
+}
+}
